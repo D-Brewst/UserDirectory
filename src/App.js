@@ -1,14 +1,12 @@
 import React from 'react';
-import Header from "./components/Header";
-import Section from "./components/Section";
+import EmployeeList from "./components/EmployeeList";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Header />
-      <Section />
+      <EmployeeList/>
     </div>
   );
 }

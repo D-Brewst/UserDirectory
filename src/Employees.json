@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "name": "Fred Flinstone",
+      "image":
+        "https://static.wikia.nocookie.net/flinstones/images/e/ee/The_Flintstones_-_Character_Profile_Image_-_Fred_Flintstone.png/revision/latest/scale-to-width-down/465?cb=20200128031714",
+      "role": "Stone age preservation specialist",
+      "department": "Historical"
+    },
+    {
+      "id": 2,
+      "name": "Popeye",
+      "image":
+        "https://vignette.wikia.nocookie.net/p__/images/0/00/Popeye_the_Sailor.png/revision/latest/scale-to-width-down/673?cb=20200203002738&path-prefix=protagonist",
+      "role": "Sailor",
+      "department": "Oceanic"
+    },
+    {
+      "id": 3,
+      "name": "Dory",
+      "image":
+        "https://vignette.wikia.nocookie.net/findingdory/images/0/07/Dory_Flippers_Up.png/revision/latest/scale-to-width-down/200?cb=20160521195310",
+      "role": "Therapist",
+      "department": "Psychology"
+    },
+    {
+        "id": 4,
+        "name": "Simba",
+        "image":
+          "https://upload.wikimedia.org/wikipedia/en/9/94/Simba_%28_Disney_character_-_adult%29.png",
+        "role": "CEO",
+        "department": "Biology"
+    },
+    {
+        "id": 5,
+        "name": "Huey Freeman",
+        "image":
+          "https://cdn.imgbin.com/6/13/19/imgbin-aaron-mcgruder-huey-freeman-the-boondocks-riley-freeman-jazmine-dubois-others-1VZQcJNxx3d8AY6tsPC0QnEnQ.jpg",
+        "role": "Justice Department Secretary",
+        "department": "US government"
+    },
+    {
+        "id": 6,
+        "name": "Buzz Lightyear",
+        "image":
+          "https://vignette.wikia.nocookie.net/disney/images/7/74/Profile_-_Buzz_Lightyear.jpeg/revision/latest?cb=20190623020017",
+        "role": "Austronaut",
+        "department": "NASA"
+    },
+    {
+        "id": 7,
+        "name": "Woody",
+        "image":
+          "https://vignette.wikia.nocookie.net/pixar/images/2/2f/1D7D7CBB-0151-4ABE-9661-2CFC3763D1E0.png/revision/latest/scale-to-width-down/620?cb=20190809221840",
+        "role": "Sherrif",
+        "department": "Sherrif's Department"
+    },
+    {
+        "id": 8,
+        "name": "Muriel Bagge",
+        "image":
+          "https://vignette.wikia.nocookie.net/warner-bros-entertainment/images/f/ff/Muriel_bagge.png/revision/latest?cb=20171005195503",
+        "role": "Chef",
+        "department": "Culinary"
+    },
+    {
+        "id": 9,
+        "name": "Dexter",
+        "image":
+          "https://vignette.wikia.nocookie.net/p__/images/1/10/225px-Dexter2.png/revision/latest?cb=20120711215235&path-prefix=protagonist",
+        "role": "Scientist",
+        "department": "Science"
+    },
+    {
+        "id": 10,
+        "name": "Mr. Crocker",
+        "image":
+          "https://vignette.wikia.nocookie.net/fairlyoddparents/images/5/5f/Denzel_Crocker.png/revision/latest/scale-to-width-down/100?cb=20200225010513&path-prefix=en",
+        "role": "Teacher",
+        "department": "Education"
+    },
+    {
+        "id": 11,
+        "name": "Ms. Finster",
+        "image":
+          "https://vignette.wikia.nocookie.net/recess/images/2/20/Finster_transparent.png/revision/latest?cb=20180328133435",
+        "role": "Teacher",
+        "department": "Education"
+    },
+    {
+        "id": 12,
+        "name": "Zazu",
+        "image":
+          "https://i.dlpng.com/static/png/5119771-zazu-simba-nala-mufasa-rafiki-zazu-lion-king-png-download-900-zazu-png-900_900_preview.png",
+        "role": "Majordomo",
+        "department": "Biology"
+    }
+  ]
