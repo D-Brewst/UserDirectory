@@ -2,27 +2,37 @@ import React from "react";
 import Card from "./Card";
 import {Table} from "react-bootstrap";
 import Employees from "../Employees.json";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Form from 'react-bootstrap/Form';
 import { Button } from "react-bootstrap";
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 function EmployeeList(props) {
   const [search, setSearch] = useState("");
-  // const [alphabetical, setAlphabetical] = useState([Employees]);
+  const [listData, setListData] = useState(Employees);
 
   const filteredEmployees = Employees.filter(employees => {
     return employees.name.toLowerCase().includes(search.toLowerCase());
   })
 
   function handleClick(event){
-    return filteredEmployees.sort((a, b) => (a.name > b.name) ? 1 : -1);
+    event.preventDefault();
+    console.log(filteredEmployees);
+    setListData(filteredEmployees.sort((a, b) => (a.name > b.name) ? 1 : -1));
   } 
+
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // Update the document title using the browser API
+    console.log(listData);
+    console.log(filteredEmployees);
+  });
 
   function handleChange(event){
     setSearch(event.target.value);
+    setListData(filteredEmployees);
   }
-
+  
   return (
     <div>
       <header className="header">
@@ -46,7 +56,7 @@ function EmployeeList(props) {
       </tr>
       </thead>
       <tbody>
-        {filteredEmployees.map(employee => {
+        {listData.map(employee => {
           return (<Card 
             key= {employee.id}
             name= {employee.name}
