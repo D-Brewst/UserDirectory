@@ -7,6 +7,7 @@ import Form from 'react-bootstrap/Form';
 import { Button } from "react-bootstrap";
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
+
 function EmployeeList(props) {
   const [search, setSearch] = useState("");
   const [listData, setListData] = useState(Employees);
